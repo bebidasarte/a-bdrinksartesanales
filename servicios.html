@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: pink;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: black;
+      margin-bottom: 40px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .plato {
+      background-color: #ADD8E6;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .plato:hover {
+      transform: scale(1.02);
+    }
+
+    .plato img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .plato-info {
+      padding: 15px;
+    }
+
+    .plato-nombre {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .plato-descripcion {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .plato-precio {
+      font-size: 18px;
+      font-weight: bold;
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Menú</h1>
+
+  <div class="menu">
+    <div class="plato">
+      <img src="horchata.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">horchata</div>
+        <div class="plato-descripcion">arroz, agua, leche evaporada, canela, esencia de vainilla, azúcar, hielo.</div>
+        <div class="plato-precio">$20</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="mojito sin alcohol.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Mojito sin alcohol</div>
+        <div class="plato-descripcion">Agua mineral, saborizante natural, trozos de fruta.</div>
+        <div class="plato-precio">$35</div>
+      </div>
+
+    </div>
+<div class="plato">
+      <img src="jamaica.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Jamaica</div>
+        <div class="plato-descripcion">Agua de jamaica, agua natural, azucar</div>
+        <div class="plato-precio">$35</div>
+      </div>
+
+    </div>
+
+    <div class="plato">
+      <img src="frutas.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Frutas</div>
+        <div class="plato-descripcion">fresas desinfectadas, Manzana, Guayabas, Leche Evaporada, Leche Condensada,esencia de vainilla, agua,fresas desinfectadas y cortadas en cubos, Manzana cortada en cubos,hielo</div>
+        <div class="plato-precio">$38.50</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="frutos rojos.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Frutos rojos.</div>
+        <div class="plato-descripcion">Frutos rojos, agua natural, azucar.</div>
+        <div class="plato-precio">$20</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
